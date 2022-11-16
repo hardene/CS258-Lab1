@@ -1,7 +1,5 @@
 all: main hello hello2
 
-include: hello.h
-
 main: main.cpp
 	g++ main.cpp
 
